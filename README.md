@@ -1,3 +1,3 @@
-# Basic Navigantion
+# Basic Navigation
 
 Created by: Natalia Oliveira
