@@ -42,6 +42,11 @@ nav {
     min-height: 80px;
 }
 
+.main-nav{
+    position: fixed;
+    width: 100%;
+}
+
 nav img {
     max-height: 48px;
     background-color: white;
@@ -125,4 +130,38 @@ footer p {
     display: inline-block;
     border: 1px solid white;
     width: 100%;
+}
+
+.dropdown {
+    position: relative;
+}
+
+#services-menu {
+    position: absolute;
+    top: 125%;
+    left: 0;
+    z-index: 9999;
+    padding-left: 16px;
+    background-color: #5e5d5d;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-2vh);
+    transition: 0.3s;
+}
+
+#services-menu a {
+    display: block;
+    white-space: nowrap;
+    padding: 8px 0;
+}
+
+.dropdown:hover #services-menu {
+    transform: translateY(0);
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.side-main,aside {
+    padding-top: 130px;
 }
